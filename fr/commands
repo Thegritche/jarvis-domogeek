@@ -1,0 +1,12 @@
+*JP* *MAINTENANT*==say "Aujourd'hui ? Je regarde..." && say "Nous sommes en tarif $(jarvis_ejp today)"
+*JP* *DEMAIN*==say "Je regarde pour demain..." && say "Ce sera tarif $(jarvis_ejp tomorrow)"
+
+*TARIF* *MAINTENANT*==  say "Pour Aujourd'hui ? Je regarde, c'est ... $(jarvis_tempo now)"
+*TARIF* *DEMAIN*==say "Je regarde pour demain..."  && say "Nous serons en tarif $(jarvis_tempo tomorrow)"
+
+
+*SAINT*==say "Le saint du jour est"  && say "$(jarvis_fete)"
+
+*LEVER*|*LEVE* *SOLEIL* ==say "Le lever du soleil est a "  && say "$(jarvis_lever_soleil)"
+*COUCHER*|*COUCHE* *SOLEIL* ==say "Le  soleil se couche a "  && say "$(jarvis_coucher_soleil)"
+ 
